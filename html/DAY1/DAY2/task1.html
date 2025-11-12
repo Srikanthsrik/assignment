@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Block & Inline Elements Example</title>
+</head>
+<body>
+
+  <!-- Block-level element #1 -->
+  <header>
+    <h1>Block & Inline Elements Demo</h1>
+    <nav>
+      <!-- Inline elements inside nav -->
+      <a href="#intro">Intro</a>
+      <a href="#details">Details</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Block-level element #2 -->
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>
+      This page shows a few <span class="highlight">block-level</span> and <strong>inline</strong> elements used together.
+      The word <em>inline</em> inside this paragraph is an inline element (<span> and <strong> are inline too).
+    </p>
+  </section>
+
+  <!-- Block-level element #3 -->
+  <article id="details">
+    <h2>Details</h2>
+    <div>
+      <p>
+        Here is a paragraph that contains several inline elements: a <a href="#">link</a>, a <span class="inline-demo">span</span>,
+        and a <strong>strong</strong> word for emphasis.
+      </p>
+    </div>
+
+    <div>
+      <p>Another paragraph to show layout — this <em>emphasized</em> text is inline as well.</p>
+    </div>
+  </article>
+
+  <footer id="contact">
+    <p>Contact: <a href="mailto:you@example.com">you@example.com</a> &mdash; Thanks for checking this out!</p>
+  </footer>
+
+</body>
+</html>
