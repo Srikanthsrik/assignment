@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Fade Toggle Example</title>
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #box {
+      width: 150px;
+      height: 150px;
+      background-color: orange;
+      display: none; /* start hidden */
+    }
+  </style>
+</head>
+<body>
+
+  <button id="toggle">Fade In / Fade Out</button>
+  <div id="box"></div>
+
+  <script>
+    $("#toggle").click(function() {
+      $("#box").fadeToggle(1000); // toggle = fadeIn + fadeOut
+    });
+  </script>
+
+</body>
+</html>
